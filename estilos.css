@@ -1,0 +1,37 @@
+
+
+h1{
+    background-color: rgb(34, 141, 91);
+    text-align: center;
+    border-radius: 10%;
+}
+h2{
+    
+    color: rgb(63, 46, 46);
+    font-size: xx-large;
+    width: 40%;
+     
+}
+.meli{
+    width: 40%;
+    border-radius: 33%;
+    background-color: rgb(83, 74, 74);
+    padding: 13%;
+
+}
+
+.inicio{
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: unset;
+    text-align: end;
+    align-items: center;
+    
+    
+}
+
+.texto{
+    text-align:justify;
+}
+
