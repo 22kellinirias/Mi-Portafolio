@@ -32,6 +32,34 @@ h2{
 }
 
 .texto{
-    text-align:justify;
+    text-align: center;
+     font-style: italic;
+     color: black;
+     height: 3%;
 }
+
+.descripcion1{
+    border: solid;
+    flex-direction: row;
+    padding: 6%;
+}
+
+.proximos-caja{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box{
+    width: 250px;
+    margin: 50px;
+    border: 2px solid black;
+    padding: 40px;
+    background-color: white;
+    display: inline-block;
+}
+.proximos-caja{
+    display: flex;
+    justify-content: flex-end;
+}
+
 
