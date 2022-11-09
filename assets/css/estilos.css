@@ -1,15 +1,17 @@
 
 
 h1{
-    background-color: rgb(34, 141, 91);
+    background-color: rgb(250, 246, 245);
     text-align: center;
     border-radius: 10%;
+    font-style: italic;
 }
 h2{
     
     color: rgb(63, 46, 46);
     font-size: xx-large;
     width: 40%;
+    font-style: italic;
      
 }
 .meli{
@@ -34,14 +36,18 @@ h2{
 .texto{
     text-align: center;
      font-style: italic;
-     color: black;
+     color: rgb(231, 226, 226);
      height: 3%;
 }
 
 .descripcion1{
     border: solid;
-    flex-direction: row;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
     padding: 6%;
+    background-color: white;
 }
 
 .proximos-caja{
@@ -56,10 +62,17 @@ h2{
     padding: 40px;
     background-color: white;
     display: inline-block;
+    justify-content: center;
+    align-items: center;
 }
 .proximos-caja{
     display: flex;
     justify-content: flex-end;
 }
-p
+
+body{
+    padding: 1%;
+    background-color: rgb(89, 113, 126);
+    }
+
 
